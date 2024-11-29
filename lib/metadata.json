@@ -1,14 +1,23 @@
 {
   "vaultName": "PRAXIS",
-  "lastExport": 1732874046528,
+  "lastExport": 1732876469272,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-ribbon",
-  "useCustomHeadContent": false,
+  "useCustomHeadContent": true,
   "useCustomFavicon": false,
   "files": [
+    "Assets/arthit.png",
     "Assets/avatar concept.png",
+    "Assets/chakan.png",
+    "Assets/gamelans album art.jpg",
+    "Assets/graphics test.png",
+    "Assets/hideki.png",
+    "Assets/hideki suit.png",
+    "Assets/jarvis seto.png",
     "Assets/Java - Gamelans From The Sultans Palace In Jogjakarta.mp3",
     "Assets/moveset.jpg",
+    "Assets/sora.png",
+    "Assets/yuyan combustion.webp",
     "Documents/AVATAR ZARYA.md",
     "lib/media/avatar-concept.png",
     "lib/media/gamelans-album-art.jpg",
@@ -21,7 +30,6 @@
     "lib/media/jarvis-seto.png",
     "lib/media/moveset.jpg",
     "lib/media/graphics-test.png",
-    "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
     "lib/fonts/2d5198822ab091ce4305.woff2",
@@ -36,16 +44,8 @@
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
-    "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
-    "lib/scripts/graph-view.js",
-    "lib/scripts/graph-wasm.js",
-    "lib/scripts/graph-render-worker.js",
-    "lib/scripts/tinycolor.js",
-    "lib/scripts/pixi.js",
-    "lib/scripts/minisearch.js",
     "lib/media/favicon.png",
-    "lib/scripts/graph-data.js",
     "lib/styles/obsidian.css",
     "lib/styles/other-plugins.css",
     "lib/styles/global-variable-styles.css",
@@ -54,7 +54,6 @@
     "lib/styles/snippets.css"
   ],
   "mainDependencies": [
-    "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
     "lib/fonts/2d5198822ab091ce4305.woff2",
@@ -69,16 +68,8 @@
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
-    "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
-    "lib/scripts/graph-view.js",
-    "lib/scripts/graph-wasm.js",
-    "lib/scripts/graph-render-worker.js",
-    "lib/scripts/tinycolor.js",
-    "lib/scripts/pixi.js",
-    "lib/scripts/minisearch.js",
     "lib/media/favicon.png",
-    "lib/scripts/graph-data.js",
     "lib/styles/obsidian.css",
     "lib/styles/other-plugins.css",
     "lib/styles/global-variable-styles.css",
@@ -88,25 +79,25 @@
   ],
   "fileInfo": {
     "Assets/avatar concept.png": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 1448708,
       "exportedPath": "assets/avatar-concept.png",
       "dependencies": []
     },
     "Assets/Java - Gamelans From The Sultans Palace In Jogjakarta.mp3": {
-      "modifiedTime": 1732874046528,
-      "sourceSize": 210052940,
+      "modifiedTime": 1732876469272,
+      "sourceSize": 64854192,
       "exportedPath": "assets/java-gamelans-from-the-sultans-palace-in-jogjakarta.mp3",
       "dependencies": []
     },
     "Assets/moveset.jpg": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 1143186,
       "exportedPath": "assets/moveset.jpg",
       "dependencies": []
     },
     "Documents/AVATAR ZARYA.md": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 12218,
       "exportedPath": "documents/avatar-zarya.html",
       "dependencies": [
@@ -134,67 +125,67 @@
       ]
     },
     "lib/media/avatar-concept.png": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 1448708,
       "exportedPath": "lib/media/avatar-concept.png",
       "dependencies": []
     },
     "lib/media/gamelans-album-art.jpg": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 79553,
       "exportedPath": "lib/media/gamelans-album-art.jpg",
       "dependencies": []
     },
     "lib/media/yuyan-combustion.webp": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 48492,
       "exportedPath": "lib/media/yuyan-combustion.webp",
       "dependencies": []
     },
     "lib/media/sora.png": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 265132,
       "exportedPath": "lib/media/sora.png",
       "dependencies": []
     },
     "lib/media/hideki.png": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 2523032,
       "exportedPath": "lib/media/hideki.png",
       "dependencies": []
     },
     "lib/media/hideki-suit.png": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 1797603,
       "exportedPath": "lib/media/hideki-suit.png",
       "dependencies": []
     },
     "lib/media/chakan.png": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 693993,
       "exportedPath": "lib/media/chakan.png",
       "dependencies": []
     },
     "lib/media/arthit.png": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 2763777,
       "exportedPath": "lib/media/arthit.png",
       "dependencies": []
     },
     "lib/media/jarvis-seto.png": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 913373,
       "exportedPath": "lib/media/jarvis-seto.png",
       "dependencies": []
     },
     "lib/media/moveset.jpg": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 1143186,
       "exportedPath": "lib/media/moveset.jpg",
       "dependencies": []
     },
     "lib/media/graphics-test.png": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 2448941,
       "exportedPath": "lib/media/graphics-test.png",
       "dependencies": []
@@ -206,85 +197,85 @@
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
@@ -296,7 +287,7 @@
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
@@ -332,13 +323,13 @@
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732875322771,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
@@ -350,39 +341,93 @@
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1732874046528,
-      "sourceSize": 131018,
+      "modifiedTime": 1732876469272,
+      "sourceSize": 131021,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 2432,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 308,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1732874046528,
-      "sourceSize": 5689,
+      "modifiedTime": 1732876469272,
+      "sourceSize": 5653,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/snippets.css": {
-      "modifiedTime": 1732874046528,
+      "modifiedTime": 1732876469272,
       "sourceSize": 1044,
       "exportedPath": "lib/styles/snippets.css",
+      "dependencies": []
+    },
+    "Assets/arthit.png": {
+      "modifiedTime": 1732876469272,
+      "sourceSize": 2763777,
+      "exportedPath": "assets/arthit.png",
+      "dependencies": []
+    },
+    "Assets/chakan.png": {
+      "modifiedTime": 1732876469272,
+      "sourceSize": 693993,
+      "exportedPath": "assets/chakan.png",
+      "dependencies": []
+    },
+    "Assets/gamelans album art.jpg": {
+      "modifiedTime": 1732876469272,
+      "sourceSize": 79553,
+      "exportedPath": "assets/gamelans-album-art.jpg",
+      "dependencies": []
+    },
+    "Assets/graphics test.png": {
+      "modifiedTime": 1732876469272,
+      "sourceSize": 2448941,
+      "exportedPath": "assets/graphics-test.png",
+      "dependencies": []
+    },
+    "Assets/hideki.png": {
+      "modifiedTime": 1732876469272,
+      "sourceSize": 2523032,
+      "exportedPath": "assets/hideki.png",
+      "dependencies": []
+    },
+    "Assets/hideki suit.png": {
+      "modifiedTime": 1732876469272,
+      "sourceSize": 1797603,
+      "exportedPath": "assets/hideki-suit.png",
+      "dependencies": []
+    },
+    "Assets/jarvis seto.png": {
+      "modifiedTime": 1732876469272,
+      "sourceSize": 913373,
+      "exportedPath": "assets/jarvis-seto.png",
+      "dependencies": []
+    },
+    "Assets/sora.png": {
+      "modifiedTime": 1732876469272,
+      "sourceSize": 265132,
+      "exportedPath": "assets/sora.png",
+      "dependencies": []
+    },
+    "Assets/yuyan combustion.webp": {
+      "modifiedTime": 1732876469272,
+      "sourceSize": 48492,
+      "exportedPath": "assets/yuyan-combustion.webp",
       "dependencies": []
     }
   }
