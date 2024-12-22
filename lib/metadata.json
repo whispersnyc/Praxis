@@ -1,6 +1,6 @@
 {
   "vaultName": "PRAXIS",
-  "lastExport": 1734854221573,
+  "lastExport": 1734857848939,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-ribbon",
   "useCustomHeadContent": false,
@@ -114,7 +114,7 @@
   ],
   "fileInfo": {
     "Documents/AVATAR ZARYA.md": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 12735,
       "exportedPath": "Documents/AVATAR ZARYA.html",
       "dependencies": []
@@ -126,85 +126,85 @@
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
@@ -306,446 +306,446 @@
       "dependencies": []
     },
     "Assets/avatar/5r7ypqduac181.png": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 140382,
       "exportedPath": "Assets/avatar/5r7ypqduac181.png",
       "dependencies": []
     },
     "Assets/avatar/06bd14ace0fa3b7cb5aead55ec6f2ee2.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 75927,
       "exportedPath": "Assets/avatar/06bd14ace0fa3b7cb5aead55ec6f2ee2.jpg",
       "dependencies": []
     },
     "Assets/avatar/7b702ed945215225d76a3bb93fbaaf2d.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 206052,
       "exportedPath": "Assets/avatar/7b702ed945215225d76a3bb93fbaaf2d.jpg",
       "dependencies": []
     },
     "Assets/avatar/7f59fca43d585171eb8d340370fe5dac.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 148401,
       "exportedPath": "Assets/avatar/7f59fca43d585171eb8d340370fe5dac.jpg",
       "dependencies": []
     },
     "Assets/avatar/8d0f2845caa777735bdf456ad9bf2fc2.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 56626,
       "exportedPath": "Assets/avatar/8d0f2845caa777735bdf456ad9bf2fc2.jpg",
       "dependencies": []
     },
     "Assets/avatar/10bdd6d7973355430da82d9d88938d05.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 165064,
       "exportedPath": "Assets/avatar/10bdd6d7973355430da82d9d88938d05.jpg",
       "dependencies": []
     },
     "Assets/avatar/40bde5642f119c80ef7d0d79ce17f584.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 74553,
       "exportedPath": "Assets/avatar/40bde5642f119c80ef7d0d79ce17f584.jpg",
       "dependencies": []
     },
     "Assets/avatar/15006df93c6bf69c7a6c093ba6780454.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 83940,
       "exportedPath": "Assets/avatar/15006df93c6bf69c7a6c093ba6780454.jpg",
       "dependencies": []
     },
     "Assets/avatar/air acolyte.webp": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 56176,
       "exportedPath": "Assets/avatar/air acolyte.webp",
       "dependencies": []
     },
     "Assets/avatar/arthit.png": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 2763777,
       "exportedPath": "Assets/avatar/arthit.png",
       "dependencies": []
     },
     "Assets/avatar/avatar concept.png": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 1448708,
       "exportedPath": "Assets/avatar/avatar concept.png",
       "dependencies": []
     },
     "Assets/avatar/avatar_au_monarch_by_skarita_de59v03-fullview.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 60073,
       "exportedPath": "Assets/avatar/avatar_au_monarch_by_skarita_de59v03-fullview.jpg",
       "dependencies": []
     },
     "Assets/avatar/bcede33ebd057035a6615648918d989f.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 52883,
       "exportedPath": "Assets/avatar/bcede33ebd057035a6615648918d989f.jpg",
       "dependencies": []
     },
     "Assets/avatar/chakan.png": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 693993,
       "exportedPath": "Assets/avatar/chakan.png",
       "dependencies": []
     },
     "Assets/avatar/clean katara.png": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 12260553,
       "exportedPath": "Assets/avatar/clean katara.png",
       "dependencies": []
     },
     "Assets/avatar/clu7hnshfco51.png": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 219251,
       "exportedPath": "Assets/avatar/clu7hnshfco51.png",
       "dependencies": []
     },
     "Assets/avatar/d2l2zjjuac181.png": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 165911,
       "exportedPath": "Assets/avatar/d2l2zjjuac181.png",
       "dependencies": []
     },
     "Assets/avatar/d58aaqd-83e54067-d8f2-4beb-b768-77e4c177ae9d.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 2724521,
       "exportedPath": "Assets/avatar/d58aaqd-83e54067-d8f2-4beb-b768-77e4c177ae9d.jpg",
       "dependencies": []
     },
     "Assets/avatar/DfWxHg-UEAAwA9v.jpeg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 209882,
       "exportedPath": "Assets/avatar/DfWxHg-UEAAwA9v.jpeg",
       "dependencies": []
     },
     "Assets/avatar/ey62e7f98fv41.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 736400,
       "exportedPath": "Assets/avatar/ey62e7f98fv41.jpg",
       "dependencies": []
     },
     "Assets/avatar/f678f76236320a240b1572332a913b9a.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 30162,
       "exportedPath": "Assets/avatar/f678f76236320a240b1572332a913b9a.jpg",
       "dependencies": []
     },
     "Assets/avatar/fc43f83389ef2423c2a9db73454d2cb4.webp": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 41456,
       "exportedPath": "Assets/avatar/fc43f83389ef2423c2a9db73454d2cb4.webp",
       "dependencies": []
     },
     "Assets/avatar/fire_bender_adopt_by_destiny2dominator_dga64w8-pre.jpeg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 418980,
       "exportedPath": "Assets/avatar/fire_bender_adopt_by_destiny2dominator_dga64w8-pre.jpeg",
       "dependencies": []
     },
     "Assets/avatar/gamelans album art.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 79553,
       "exportedPath": "Assets/avatar/gamelans album art.jpg",
       "dependencies": []
     },
     "Assets/avatar/graphics test.png": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 2448941,
       "exportedPath": "Assets/avatar/graphics test.png",
       "dependencies": []
     },
     "Assets/avatar/hideki.png": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 2523032,
       "exportedPath": "Assets/avatar/hideki.png",
       "dependencies": []
     },
     "Assets/avatar/hideki suit.png": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 1797603,
       "exportedPath": "Assets/avatar/hideki suit.png",
       "dependencies": []
     },
     "Assets/avatar/high fashion aang.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 59585,
       "exportedPath": "Assets/avatar/high fashion aang.jpg",
       "dependencies": []
     },
     "Assets/avatar/hmzrdl7qcio71.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 40596,
       "exportedPath": "Assets/avatar/hmzrdl7qcio71.jpg",
       "dependencies": []
     },
     "Assets/avatar/howai.png": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 1319050,
       "exportedPath": "Assets/avatar/howai.png",
       "dependencies": []
     },
     "Assets/avatar/images(4).jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 13289,
       "exportedPath": "Assets/avatar/images(4).jpg",
       "dependencies": []
     },
     "Assets/avatar/images(5).jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 15880,
       "exportedPath": "Assets/avatar/images(5).jpg",
       "dependencies": []
     },
     "Assets/avatar/images(6).jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 13173,
       "exportedPath": "Assets/avatar/images(6).jpg",
       "dependencies": []
     },
     "Assets/avatar/images(7).jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 8113,
       "exportedPath": "Assets/avatar/images(7).jpg",
       "dependencies": []
     },
     "Assets/avatar/jarvis seto.png": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 913373,
       "exportedPath": "Assets/avatar/jarvis seto.png",
       "dependencies": []
     },
     "Assets/avatar/Java - Gamelans From The Sultans Palace In Jogjakarta.mp3": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 64854192,
       "exportedPath": "Assets/avatar/Java - Gamelans From The Sultans Palace In Jogjakarta.mp3",
       "dependencies": []
     },
     "Assets/avatar/kya.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 103900,
       "exportedPath": "Assets/avatar/kya.jpg",
       "dependencies": []
     },
     "Assets/avatar/kya izumi.png": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 899301,
       "exportedPath": "Assets/avatar/kya izumi.png",
       "dependencies": []
     },
     "Assets/avatar/l9fw741sf57b1.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 921501,
       "exportedPath": "Assets/avatar/l9fw741sf57b1.jpg",
       "dependencies": []
     },
     "Assets/avatar/late_and_affi_by_viria13_d5d5mvz-414w-2x.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 62790,
       "exportedPath": "Assets/avatar/late_and_affi_by_viria13_d5d5mvz-414w-2x.jpg",
       "dependencies": []
     },
     "Assets/avatar/maine coon owl.webp": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 81738,
       "exportedPath": "Assets/avatar/maine coon owl.webp",
       "dependencies": []
     },
     "Assets/avatar/modern_team_uh_vatar_by_viria13_d56xui8-fullview.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 202780,
       "exportedPath": "Assets/avatar/modern_team_uh_vatar_by_viria13_d56xui8-fullview.jpg",
       "dependencies": []
     },
     "Assets/avatar/moveset.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 1143186,
       "exportedPath": "Assets/avatar/moveset.jpg",
       "dependencies": []
     },
     "Assets/avatar/Nymia_of_the_western_air_temple.webp": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 48584,
       "exportedPath": "Assets/avatar/Nymia_of_the_western_air_temple.webp",
       "dependencies": []
     },
     "Assets/avatar/Ru.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 76173,
       "exportedPath": "Assets/avatar/Ru.jpg",
       "dependencies": []
     },
     "Assets/avatar/Screenshot 2024-12-22 023710.png": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 157136,
       "exportedPath": "Assets/avatar/Screenshot 2024-12-22 023710.png",
       "dependencies": []
     },
     "Assets/avatar/Screenshot 2024-12-22 024705.png": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 193187,
       "exportedPath": "Assets/avatar/Screenshot 2024-12-22 024705.png",
       "dependencies": []
     },
     "Assets/avatar/Screenshot_20240314-015014.png": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 1310981,
       "exportedPath": "Assets/avatar/Screenshot_20240314-015014.png",
       "dependencies": []
     },
     "Assets/avatar/sora.png": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 265132,
       "exportedPath": "Assets/avatar/sora.png",
       "dependencies": []
     },
     "Assets/avatar/sora 2.png": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 542145,
       "exportedPath": "Assets/avatar/sora 2.png",
       "dependencies": []
     },
     "Assets/avatar/static-assets-upload14874096551930453393.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 92845,
       "exportedPath": "Assets/avatar/static-assets-upload14874096551930453393.jpg",
       "dependencies": []
     },
     "Assets/avatar/tumblr_0bbeba2a546f38b6671aef962ff33ad0_56fc35fb_400 Ila.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 28495,
       "exportedPath": "Assets/avatar/tumblr_0bbeba2a546f38b6671aef962ff33ad0_56fc35fb_400 Ila.jpg",
       "dependencies": []
     },
     "Assets/avatar/tumblr_4c90ddaf46b12ebd6452a43c3286b7c6_7ca9c9a5_2048.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 110695,
       "exportedPath": "Assets/avatar/tumblr_4c90ddaf46b12ebd6452a43c3286b7c6_7ca9c9a5_2048.jpg",
       "dependencies": []
     },
     "Assets/avatar/tumblr_7ac77a6cde2df54c116aff0f07208ba7_082e8710_1280.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 141052,
       "exportedPath": "Assets/avatar/tumblr_7ac77a6cde2df54c116aff0f07208ba7_082e8710_1280.jpg",
       "dependencies": []
     },
     "Assets/avatar/tumblr_08fd73304823434c9fb3ceec94ce4e85_bf2b07e2_2048.png": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 1235783,
       "exportedPath": "Assets/avatar/tumblr_08fd73304823434c9fb3ceec94ce4e85_bf2b07e2_2048.png",
       "dependencies": []
     },
     "Assets/avatar/tumblr_9e2375f9cd7002c3ce2f498ed913f21a_1a1f552f_2048.png": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 1105728,
       "exportedPath": "Assets/avatar/tumblr_9e2375f9cd7002c3ce2f498ed913f21a_1a1f552f_2048.png",
       "dependencies": []
     },
     "Assets/avatar/tumblr_39d3c8e639ec814a9c1dbe8f288f6705_1ca7ae35_500 Miska.png": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 269931,
       "exportedPath": "Assets/avatar/tumblr_39d3c8e639ec814a9c1dbe8f288f6705_1ca7ae35_500 Miska.png",
       "dependencies": []
     },
     "Assets/avatar/tumblr_1593cb5c217e59b679df8126a3f2071f_80f9596f_2048.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 503292,
       "exportedPath": "Assets/avatar/tumblr_1593cb5c217e59b679df8126a3f2071f_80f9596f_2048.jpg",
       "dependencies": []
     },
     "Assets/avatar/tumblr_5309c3120f260ede6351be9254b62615_63cf08d9_1280.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 433102,
       "exportedPath": "Assets/avatar/tumblr_5309c3120f260ede6351be9254b62615_63cf08d9_1280.jpg",
       "dependencies": []
     },
     "Assets/avatar/tumblr_270058da3c64189491a93cb2da049bca_0f50adeb_2048 Fenfang.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 206958,
       "exportedPath": "Assets/avatar/tumblr_270058da3c64189491a93cb2da049bca_0f50adeb_2048 Fenfang.jpg",
       "dependencies": []
     },
     "Assets/avatar/tumblr_534276ca2b677dacba1c385afe6db48c_060e906d_1280 Jasmine.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 74594,
       "exportedPath": "Assets/avatar/tumblr_534276ca2b677dacba1c385afe6db48c_060e906d_1280 Jasmine.jpg",
       "dependencies": []
     },
     "Assets/avatar/tumblr_98570082b3de54184c7227286c552b4a_eb62ccb2_1280 Bao Yue.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 118578,
       "exportedPath": "Assets/avatar/tumblr_98570082b3de54184c7227286c552b4a_eb62ccb2_1280 Bao Yue.jpg",
       "dependencies": []
     },
     "Assets/avatar/tumblr_356907925909f231eb0aa14039106653_6d8f8dc1_2048 Eiko.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 516287,
       "exportedPath": "Assets/avatar/tumblr_356907925909f231eb0aa14039106653_6d8f8dc1_2048 Eiko.jpg",
       "dependencies": []
     },
     "Assets/avatar/tumblr_460011313060b6ce3c8bf74c54d6b8b6_5847ac90_2048.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 810230,
       "exportedPath": "Assets/avatar/tumblr_460011313060b6ce3c8bf74c54d6b8b6_5847ac90_2048.jpg",
       "dependencies": []
     },
     "Assets/avatar/tumblr_e4521626b98eb72dc1bd6bcf12021d97_cceb4b98_2048 Navi.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 158633,
       "exportedPath": "Assets/avatar/tumblr_e4521626b98eb72dc1bd6bcf12021d97_cceb4b98_2048 Navi.jpg",
       "dependencies": []
     },
     "Assets/avatar/tumblr_ec83cc628bf500985665a7455b65742e_4bff3f0a_2048 Ezra.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 472245,
       "exportedPath": "Assets/avatar/tumblr_ec83cc628bf500985665a7455b65742e_4bff3f0a_2048 Ezra.jpg",
       "dependencies": []
     },
     "Assets/avatar/tumblr_ed62875823f360445d382cd9261ef642_1574bb82_2048.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 648187,
       "exportedPath": "Assets/avatar/tumblr_ed62875823f360445d382cd9261ef642_1574bb82_2048.jpg",
       "dependencies": []
     },
     "Assets/avatar/tumblr_ee50d1a2fb44d7ae7de02d093b3fa02a_653ebdb7_2048 Lihua.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 429256,
       "exportedPath": "Assets/avatar/tumblr_ee50d1a2fb44d7ae7de02d093b3fa02a_653ebdb7_2048 Lihua.jpg",
       "dependencies": []
     },
     "Assets/avatar/tumblr_f30488362c54aedc3d97471ec79c7f71_2f3c84ec_2048.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 981161,
       "exportedPath": "Assets/avatar/tumblr_f30488362c54aedc3d97471ec79c7f71_2f3c84ec_2048.jpg",
       "dependencies": []
     },
     "Assets/avatar/ursa.webp": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 68090,
       "exportedPath": "Assets/avatar/ursa.webp",
       "dependencies": []
     },
     "Assets/avatar/wxwplg4tm2551.jpg": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 485595,
       "exportedPath": "Assets/avatar/wxwplg4tm2551.jpg",
       "dependencies": []
     },
     "Assets/avatar/xhwdwzgqv7p41.png": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 283699,
       "exportedPath": "Assets/avatar/xhwdwzgqv7p41.png",
       "dependencies": []
     },
     "Assets/avatar/yuyan combustion.webp": {
-      "modifiedTime": 1734854221573,
+      "modifiedTime": 1734857848939,
       "sourceSize": 48492,
       "exportedPath": "Assets/avatar/yuyan combustion.webp",
       "dependencies": []
     },
     "Documents/AVATAR ZARYA art.canvas": {
-      "modifiedTime": 1734854221573,
-      "sourceSize": 8295,
+      "modifiedTime": 1734857848939,
+      "sourceSize": 8546,
       "exportedPath": "Documents/AVATAR ZARYA art.html",
       "dependencies": []
     }
