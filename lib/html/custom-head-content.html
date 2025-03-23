@@ -1,0 +1,73 @@
+<style>
+    .page-title.heading.el-p {overflow:hidden}
+
+    a.no-underline {
+        text-decoration: none; /* Remove underline from links */
+    }
+
+    .embed-title.markdown-embed-title {
+        padding-bottom: 0px;
+    }
+
+    .collapse-tree-button, .canvas-node-label, .graph-view-wrapper, .auto-card-link-copy-url {
+        overflow: hidden;
+        pointer-events: none;
+        visibility: hidden;
+        display: none;
+    }
+
+    .el-p.el-embed-block > span {
+	    background-color: var(--color-base-10);
+    }
+
+    .block-language-avatar > .flex {padding: 4px}
+    .markdown-embed-content.node-insert-event {padding: 20px 0 20px 10px}
+    .el-p.el-embed-heading > span, .el-p.el-embed-block > span {background-color: var(--color-base-10)}
+
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<script>
+    var docsElements = []; // Declare docsElements globally
+
+    function findHrefByQuery(query) {
+        console.log(query);
+        var href = false;
+        docsElements.forEach(function(docs) {
+            var label = docs.querySelector('span');
+            if (label && label.innerHTML === "Documents") {
+                // Find branch ending elements within Docs
+                var branchEndings = docs.querySelectorAll('span');
+                branchEndings.forEach(function(branchEnding) {
+                    if (branchEnding.innerHTML === query) {
+                        // Get the grandparent element's href property
+                        var queryLabel = branchEnding;
+                        var grandparent = queryLabel.closest('a');
+                        if (grandparent) {
+                            href = grandparent.href;
+                        }
+                    }
+                });
+            }
+        });
+        return href;
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        /*var iconContainer = document.querySelector('.clickable-icon.sidebar-collapse-icon');
+        iconContainer.innerHTML = '<i class="fas fa-bars"></i>';*/
+
+        var embeds = document.querySelectorAll('.internal-embed.markdown-embed.inline-embed.is-loaded');
+        docsElements = document.querySelectorAll('.tree-item.mod-tree-folder.nav-folder.mod-collapsible'); // Assign NodeList to docsElements
+        embeds.forEach(function(embed) {
+            var src = embed.getAttribute('src');
+            if (src) {
+                var pageName = src.split('#')[0];
+                var targetURL = findHrefByQuery(pageName);
+                if (targetURL)
+                    embed.outerHTML = `<a href="${targetURL}" class="no-underline">${embed.outerHTML}</a>`;
+            }
+        });
+    });
+</script>
