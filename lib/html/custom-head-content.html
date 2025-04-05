@@ -1,47 +1,61 @@
 <style>
+    /* TODO: Bottom of mobile page extra empty space */
+
+    /* TODO: Target elements when fullwidth frontmatter is detected */
+    .document-container > .markdown-preview-view:has(.frontmatter) > .markdown-preview-sizer {
+    max-width: 100% !important;
+    }
+
+    /* Hide Headings */
     .page-title.heading.el-p {overflow:hidden}
+    #index.page-title.heading.el-p {display: none;}
 
     a.no-underline {
         text-decoration: none; /* Remove underline from links */
     }
 
+    /* Embed Filename */
     .embed-title.markdown-embed-title {
         padding-bottom: 0px;
+        display: none;
     }
 
-    .collapse-tree-button, .canvas-node-label, .graph-view-wrapper, .auto-card-link-copy-url {
+    /* Hide: Collapse Whole Filetree, Canvas Filenames, Graph View, Card Link URL */
+    .collapse-tree-button, .canvas-node-label, .graph-view-wrapper, .auto-card-link-copy-url, .auto-card-link-favicon {
         overflow: hidden;
         pointer-events: none;
         visibility: hidden;
         display: none;
     }
 
-    .el-p.el-embed-block > span {
-	    background-color: var(--color-base-10);
-    }
-
+    /* Embed BG/padding TODO: first Avatar one imbalanced */
+    .el-p.el-embed-block > span {background-color: var(--color-base-10);}
     .block-language-avatar > .flex {padding: 4px}
     .markdown-embed-content.node-insert-event {padding: 20px 20px 20px 5px}
     .el-p.el-embed-heading > span, .el-p.el-embed-block > span {background-color: var(--color-base-10)}
 
-    .internal-embed h3,
-    .internal-embed h2
-        {display: none}
+    /* Embed Headings TODO: apply only to first headings if specific heading embedded */
+    .internal-embed h3, .internal-embed h2 {display: none}
+
+    /* Remove excess height from embeds */
     .internal-embed .markdown-preview-sizer.markdown-preview-section {
         min-height: min-content !important;
     }
     /*.auto-card-link-title {height: min-content !important}*/
-    .auto-card-link-favicon {display: none}
 
+    /* Hide Right Sidebar and Heading Collapse */
     .heading-collapse-indicator.collapse-indicator.collapse-icon, .sidebar-right.sidebar {
         pointer-events: none;
         visibility: hidden;
         display: none;
     }
+
+    #cusdis_thread iframe {height: 400px}
 </style>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
 <script>
     /*
     var docsElements = []; // Declare docsElements globally
