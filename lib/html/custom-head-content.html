@@ -1,10 +1,5 @@
 <style>
-    /* TODO: Bottom of mobile page extra empty space */
-
-    /* TODO: Target elements when fullwidth frontmatter is detected */
-    .document-container > .markdown-preview-view:has(.frontmatter) > .markdown-preview-sizer {
-    max-width: 100% !important;
-    }
+    /* TODO: Bottom of mobile page extra empty space, gap above heading, h2/h3 differentiation */
 
     /* Hide Headings */
     .page-title.heading.el-p {overflow:hidden}
@@ -20,8 +15,9 @@
         display: none;
     }
 
-    /* Hide: Collapse Whole Filetree, Canvas Filenames, Graph View, Card Link URL */
-    .collapse-tree-button, .canvas-node-label, .graph-view-wrapper, .auto-card-link-copy-url, .auto-card-link-favicon {
+    /* Hide: Collapse Whole Filetree, Canvas Filenames, Graph View, Card Link URL, Note Gallery Empty */
+    .collapse-tree-button, .canvas-node-label, .graph-view-wrapper, .auto-card-link-copy-url,
+    .auto-card-link-favicon, .search-empty-state {
         overflow: hidden;
         pointer-events: none;
         visibility: hidden;
@@ -54,9 +50,111 @@
 </style>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
-<script>
+<script>    
+function onJQueryLoad(callback) {
+    if (window.jQuery) callback();
+    else {
+        setTimeout(function() { 
+            onJQueryLoad(callback);
+        }, 50);
+    }
+}
+onJQueryLoad(initializeTree);
+
+// INITIALIZE TREE
+function initializeTree() {
+  // Select all top-level folder elements
+  const folders = document.querySelectorAll('.mod-tree-folder.nav-folder');
+
+  folders.forEach(folder => {
+    // Find the direct children container for this folder
+    const childrenContainer = folder.querySelector(':scope > .nav-folder-children');
+    if (!childrenContainer) {
+      return; // Skip if no children container found
+    }
+
+    // Find direct child file elements within this folder
+    // The selector '> div.mod-tree-file' ensures we only get direct children files
+    const childFiles = childrenContainer.querySelectorAll(':scope > .mod-tree-file.nav-file');
+    let indexFileHref = null;
+
+    // Look for a direct child file named "index"
+    for (const file of childFiles) {
+      const fileTitleElement = file.querySelector('.nav-file-title-content');
+      // Check if the file's title text is exactly "index" (case-sensitive)
+      // Modify 'index' if the actual filename/title is different (e.g., 'index.html')
+      if (fileTitleElement && fileTitleElement.textContent.trim() === 'index') {
+        const linkElement = file.querySelector('a.tree-link');
+        if (linkElement) {
+          indexFileHref = linkElement.getAttribute('href');
+          break; // Found the index file, stop searching in this folder
+        }
+      }
+    }
+
+    // If an index file with a link was found in this folder's direct children
+        if (indexFileHref) {
+            const folderTitleContent = folder.querySelector('.nav-folder-title .nav-folder-title-content');
+            const folderTitle = folder.querySelector('.nav-folder-title');
+
+            if (folderTitleContent) {
+                // Create a new anchor element
+                const newLink = document.createElement('a');
+                newLink.href = indexFileHref;
+                newLink.style.textDecoration = 'underline';
+                newLink.textContent = folderTitleContent.textContent;
+                
+                // Add click handler
+                newLink.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    window.location.href = indexFileHref;
+                });
+
+                folderTitleContent.textContent = '';
+                folderTitleContent.appendChild(newLink);
+            }
+        }
+  });
+}
+
+// INITIALIZE PAGE
+
+// Override history methods to detect state changes
+const originalPushState = history.pushState;
+const originalReplaceState = history.replaceState;
+
+onJQueryLoad(initializePage);
+
+/*history.pushState = function (...args) {
+  originalPushState.apply(this, args);
+  window.dispatchEvent(new Event('pagechange'));
+};*/
+
+history.replaceState = function (...args) {
+  originalReplaceState.apply(this, args);
+  window.dispatchEvent(new Event('pagechange'));
+};
+
+// Listen for browser navigation (back/forward)
+window.addEventListener('popstate', () => {
+  window.dispatchEvent(new Event('pagechange'));
+});
+
+window.addEventListener('pagechange', () => {
+  console.log("[!!] Page changed: " + window.location.href);
+  // Reinitialize or apply modifications here
+  initializePage(); // Call your page initialization logic
+});
+
+
+function initializePage() {
+    if ($('code.fullwidth').length > 0 || $('code:contains("fullwidth")').length > 0)
+        $('.document-container > .markdown-preview-view:has(.frontmatter) > .markdown-preview-sizer').prop('style').setProperty('max-width', '100%', 'important');
+}
+
     /*
     var docsElements = []; // Declare docsElements globally
 
