@@ -95,28 +95,29 @@ function initializeTree() {
     }
 
     // If an index file with a link was found in this folder's direct children
-        if (indexFileHref) {
-            const folderTitleContent = folder.querySelector('.nav-folder-title .nav-folder-title-content');
-            const folderTitle = folder.querySelector('.nav-folder-title');
+    if (indexFileHref) {
+        const folderTitleContent = folder.querySelector('.nav-folder-title .nav-folder-title-content');
+        const folderTitle = folder.querySelector('.nav-folder-title');
+        const indexFileLink = folder.querySelector(`a.tree-link[href="${indexFileHref}"]`);
 
-            if (folderTitleContent) {
-                // Create a new anchor element
-                const newLink = document.createElement('a');
-                newLink.href = indexFileHref;
-                newLink.style.textDecoration = 'underline';
-                newLink.textContent = folderTitleContent.textContent;
-                
-                // Add click handler
-                newLink.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    window.location.href = indexFileHref;
-                });
+        if (folderTitleContent && indexFileLink) {
+            // Create a new anchor element
+            const newLink = document.createElement('a');
+            newLink.href = indexFileHref;
+            newLink.style.textDecoration = 'underline';
+            newLink.textContent = folderTitleContent.textContent;
+            
+            // Add click handler
+            newLink.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                indexFileLink.click(); // Simulate click on the actual index file link
+            });
 
-                folderTitleContent.textContent = '';
-                folderTitleContent.appendChild(newLink);
-            }
+            folderTitleContent.textContent = '';
+            folderTitleContent.appendChild(newLink);
         }
+    }
   });
 }
 
